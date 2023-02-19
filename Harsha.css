@@ -240,11 +240,6 @@ ul.myUL {
     .name{
         font-size: 30px;
     }
-    .about .about-content{
-        margin-left: 300px;
-        margin-top: 70px;
-        font-size: 10px;
-    }
 }
 
 @media (max-width:1360px) {
@@ -263,6 +258,28 @@ ul.myUL {
     }
     
 }
+
+@media (max-width:490px) {
+    .about{
+        display: flex;
+        /* background: url("https://cutewallpaper.org/21/web-background-images/Web-Design-When-the-Background-Becomes-the-Main-Stage-.png") no-repeat center; */
+        background: url("aboutmedia.png") no-repeat center;
+        /* background-attachment: fixed; */
+        /* height: 100vah; */
+        background-size:cover ;
+        color: #fff;
+        min-height: 900px;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+
+    .about .about-content{
+        margin-left: 2px;
+        margin-top: 50%;
+        font-size: 10px;
+    }
+    
+}
+
 @media (max-width:990px) {
     .about{
         display: flex;

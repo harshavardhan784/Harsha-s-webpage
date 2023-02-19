@@ -85,6 +85,7 @@
     background-attachment: fixed;
     height: 100vh;
     /* background-size:cover ; */
+    background-size: 100%;
     color: #fff;
     min-height: 500px;
     font-family: 'sans-serif';

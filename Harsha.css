@@ -241,6 +241,11 @@ ul.myUL {
     .name{
         font-size: 30px;
     }
+    .about .about-content{
+        margin-left: 300px;
+        margin-top: 70px;
+        font-size: 15px;
+    }
 }
 
 @media (max-width:1360px) {

@@ -23,8 +23,8 @@
 }
 
 .navbar.sticky {
-    padding: 8px 0;
-    background: skyblue;
+    padding: 15px 0;
+    background: crimson;
 }
 
 .navbar .max-width{
@@ -33,27 +33,21 @@
     justify-content: space-between;
 }
 
-.navbar .menu{
-    text-align:right;
-    vertical-align: middle;
-    padding: 8px;
-}
 
 .navbar .menu li{
     list-style: none;
     display: inline-block;
 }
 .navbar .menu li a{
-    color:crimson;
-    display: block;
-    font-size: 22px;
+    color: #fff;
+    font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover{
-    color: rgb(17, 15, 15);
+    color: crimson;
 }
 
 
@@ -96,31 +90,15 @@
     font-family: 'sans-serif';
 }
 .home .max-width{
-    margin: auto 0 auto 30px;
+    margin: auto 0 auto 40px;
 }
 .home .home-content{
-    margin-top: 80px;
-}
-
-.home .home-content .home-content1{
-    font-size: 60px;
-    font-family: 'Hind Siliguri', sans-serif;
-}
-
-.home .home-content .home-content2{
-    font-size: 60px;
-    font-family: 'Hind Siliguri', sans-serif;
-}
-#name{
-    font-size: 60px;
-    color: crimson;
-    font-family: 'Hind Siliguri', sans-serif;
+    margin-top: 70px;
 }
 
 .about{
     display: flex;
-    /* background: url("https://cutewallpaper.org/21/web-background-images/Web-Design-When-the-Background-Becomes-the-Main-Stage-.png") no-repeat center; */
-    background: url("about.jpg") no-repeat center;
+    background: url("https://cutewallpaper.org/21/web-background-images/Web-Design-When-the-Background-Becomes-the-Main-Stage-.png") no-repeat center;
     /* background-attachment: fixed; */
     /* height: 100vah; */
     background-size:cover ;
@@ -162,28 +140,12 @@ ul.myUL {
     margin-top: 70px;
     text-align: center;
 }
-.contact{
-    display: flex;
-    background: url("contact.jpg") no-repeat center;
-    /* background-attachment: fixed; */
-    text-align: center;
-    /* height: 100vh; */
-    background-size:cover ;
-    color: #fff;
-    /* min-height: 100px; */
-    font-family: 'Hind Siliguri', sans-serif;
-    
-}
-.contact .max-width{
-    margin: auto 0 auto 40px;
-}
-.contact-content{
-    text-align: center;
-    /* margin-left:100%; */
-    padding: 100px;
-    font-family: sans-serif;
-    /* background-color:rgb(116, 189, 196); */
 
+.contact-content{
+    font-family: sans-serif;
+    background-color:rgb(116, 189, 196);
+    text-align: center;
+    padding: 100px;
 }
 
 .icon{
